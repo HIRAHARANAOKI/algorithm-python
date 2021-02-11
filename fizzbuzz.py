@@ -4,8 +4,8 @@
 #    5の倍数のときは「Buzz」
 #    3と5の両方の倍数の場合には「FizzBuzz」を出力。
 
-i = 0
-for i in range(i, 51):
+
+for i in range(1, 51):
     if (i % 3 == 0) and (i % 5 == 0):
         print("FizzBuzz", end="\n")
     elif i % 3 == 0:
@@ -14,6 +14,18 @@ for i in range(i, 51):
         print("Buzz", end="\n")
     else:
         print(i, end="\n")
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
